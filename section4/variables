@@ -1,0 +1,36 @@
+MATH
+
+x + 20 = 25;
+
+creating a variable = defining a variable
+
+var carType;
+
+var carColor;
+
+----------------------
+
+var count;
+
+var hairColor;
+
+var address;
+
+
+------------------------
+
+Naming rules:
+
+1. start any letter
+2. can't start with a number
+3. any length
+4. case sensitive
+5. use camel case
+6. reserved words
+
+
+---------------------------
+"=" assignment operator
+
+var eyeColor = "brown";  //string "" ile cevrelenir. Ayni zamanda '' da kullanilir STring belirtmek icin 
+                         // fakat '' kullanmak iyi olmaz. Cunku kesme isarei olarak kullanildigi yerde yanlis tepki verir. 
