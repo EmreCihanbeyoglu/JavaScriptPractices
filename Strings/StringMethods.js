@@ -16,9 +16,26 @@ sentence.lastIndexOf("hello") // 24 verecek
 sentence.search("hello")
 
 
-//taking a slice or substring  --- son index alinmiyor. Ana stringæde degisiklik yok
+//taking a slice  --- son index alinmiyor. Ana stringæde degisiklik yok
 var str = "Happy, Excited, Calm"
 
 var s1 = str.slice(7,14)
 var s2 = str.slice(7) // 7.index'ten baslayarak sona kadar hespni alir. 
+console.log(s1)
+
+
+//substring() methodu
+var str = "Happy, Excited, Calm"
+
+var s1 = str.substring(7,14)
+var s2 = str.substring(7) // 7.index'ten baslayarak sona kadar hespni alir. 
+console.log(s1)
+
+
+//substr() methodu
+
+var str = "Happy, Excited, Calm"
+
+var s1 = str.substr(7,14) // ikinci parametre alinacak karakter sayisini belirtir, son karakter index ini degil. 
+var s2 = str.substr(7) // 7.index'ten baslayarak sona kadar hespni alir. 
 console.log(s1)
