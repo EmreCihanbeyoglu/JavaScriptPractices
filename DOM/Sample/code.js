@@ -37,3 +37,31 @@ console.log(h1Sib)
 //o yuzden eger bunu kullanacaksan elementler arasindaki boslugu kaldir. 
 var h1Par = document.getElementById("heading").nextSibling
 console.log(h1Par)
+
+//manipulating dom element
+document.getElementById('heading').innerHTML="deneme"
+
+document.getElementById('logo').alt='bug'
+
+
+//create a new element and append - sanirim en sona ekler
+var p = document.createElement("p")
+var pText = document.createTextNode("New Paragraph")
+p.appendChild(pText) //paragrafin altina text'i child olarak ekler
+
+document.getElementById("main").appendChild(p) // p yi main id li element altina koyar. 
+
+//insert into a place
+var headingn = document.getElementById("heading")
+document.getElementById("main").insertBefore(p, headingn)
+
+
+//delete an element
+var logo = document.getElementById("logo")
+document.getElementById("main").removeChild(logo) //logo isimli resmi kaldirir. (degisken ismi)
+
+
+//changin style
+document.getElementById("heading").style.color = "blue"
+
+document.getElementById("main").style.border = "1px black solid"
